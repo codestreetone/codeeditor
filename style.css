@@ -1,0 +1,7 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: sans-serif;}
+.title{font-size: 2rem;font-weight: 600;letter-spacing: 2px;}
+.run{position: absolute;background-color: green;color: white;padding: 1% 2%;border-radius: 10px 10px;top: 4vh;left: 42.5%;}
+.code-container{width: 49%;height:80vh;float: left;box-shadow: 2px 2px 5px 2px #888888;margin-top: 5vh;}
+#code{width: 100%;height: 80vh;border: none;}
+.output-container{width: 49%;height:80vh;float: right;box-shadow: -2px 2px 5px 2px #888888;margin-top: 5vh;overflow: scroll;}
+.output-container ol{margin-left: 5%;}

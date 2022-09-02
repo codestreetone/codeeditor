@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">CODE EDITOR</div>
+    <div>Click on the <b>RUN</b> button to execute the code</div>
+    <button class="run">RUN</button>
+    <hr>
+    <div class="code-container"><textarea name="code-editor" id="code"></textarea></div>
+    <div class="output-container"><ol></ol></div>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".run").click(function(){
+                data=$("#code").val();
+                $("ol").append(`<li>${data}</li>`);
+            });
+        });
+    </script>
+</body>
+</html>
